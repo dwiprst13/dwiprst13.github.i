@@ -1,114 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dwiprst13.id</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link
-  rel="stylesheet"
-  href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dwiprst13.id</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css"
     />
-<link href="https://fonts.cdnfonts.com/css/classy-vogue" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <div class="navbar">
-
-    </div>
-    <div class="banners">
+    <link href="https://fonts.cdnfonts.com/css/classy-vogue" rel="stylesheet" />
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar"></div>
+      <div class="banners">
         <div class="banner">
-            <h1>Hello,</h1>
-            <h2>My Name is <span class="banner_nama">Dwi Prasetia</span></h2>  
-            <p>I'm an Informatics Student.</p>
+          <h1>Hello,</h1>
+          <h2>My Name is <span class="banner_nama">Dwi Prasetia</span></h2>
+          <p>I'm an Informatics Student.</p>
         </div>
-    </div>
+      </div>
 
-    <div class="about_me">
-        <div class="about_text">
-            <p>I'm an junior Android Developer eager to learn and grow in the world of app development. I'm passionate about creating innovative solutions and exploring the latest technologies. Currently, I'm seeking like-minded partners to collaborate and grow together on exciting projects. Let's connect and build amazing apps as a team!</p>
-        </div>
-        <div class="about_buttons">
+      <div class="about_me">
+        <div class="aboutmecont">
+          <div class="about_text">
+            <p>
+              I'm an junior Android Developer eager to learn and grow in the
+              world of app development. I'm passionate about creating innovative
+              solutions and exploring the latest technologies. Currently, I'm
+              seeking like-minded partners to collaborate and grow together on
+              exciting projects. Let's connect and build amazing apps as a team!
+            </p>
+          </div>
+          <div class="about_buttons">
             <button class="about_button">My Resume</button>
+          </div>
         </div>
-    </div>
-    <div class="project">
-        <h1>From Me</h1>
-        <p>Here are sumary of achievment and project i'm working on.</p>
-        <div class="project_cards">
-            <div class="row">
+      </div>
+      
+      <div class="project">
+        <div class="projectheader">
+          <h1>From Me</h1>
+          <p>Here are sumary of achievment and project i'm working on.</p>
+        </div>
+        <div class="projectcontent">
+          <div class="project_cards">
+            <div class="projectcardcontent">
+              <div class="row">
                 <div class="project_card_besar">
-                    <img src="src/cashier.webp" class="project_image" alt="">
-                    <div class="project_overlay">
-                        <h3>Cashier Apps</h3>
-                        <button class="view_button">View Details</button>
-                    </div>
+                  <img src="src/cashier.webp" class="project_image" alt="" />
+                  <div class="project_overlay">
+                    <h3>Cashier Apps</h3>
+                    <button class="view_button">View Details</button>
+                  </div>
                 </div>
                 <div class="project_card">
-                    <img src="src/calculator.png" class="project_image" alt="">
-                    <div class="project_overlay">
-                        <h3>Simple Calculator</h3>
-                        <button class="view_button">View Details</button>
-                    </div>
+                  <img src="src/calculator.png" class="project_image" alt="" />
+                  <div class="project_overlay">
+                    <h3>Simple Calculator</h3>
+                    <button class="view_button">View Details</button>
+                  </div>
                 </div>
-            </div>
-            <div class="row">
+              </div>
+              <div class="row">
                 <div class="project_card">
-                    <img src="src/musicapps.webp" class="project_image" alt="">
-                    <div class="project_overlay">
-                        <h3>Music Player Apps</h3>
-                        <button class="view_button">View Details</button>
-                    </div>
+                  <img src="src/musicapps.webp" class="project_image" alt="" />
+                  <div class="project_overlay">
+                    <h3>Music Player Apps</h3>
+                    <button class="view_button">View Details</button>
+                  </div>
                 </div>
                 <div class="project_card_besar">
-                    <img src="src/todolist.jpg" class="project_image" alt="">
-                    <div class="project_overlay">
-                        <h3>To do Apps</h3>
-                        <button class="view_button">View Details</button>
-                    </div>
+                  <img src="src/todolist.jpg" class="project_image" alt="" />
+                  <div class="project_overlay">
+                    <h3>To do Apps</h3>
+                    <button class="view_button">View Details</button>
+                  </div>
                 </div>
+              </div>
             </div>
-            <button class="button_project">More >></button>
+            <div class="projectcardbutton">
+              <button class="button_project">More >></button>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="contact">
+      </div>
+      <div class="contact">
         <h1>Contacts</h1>
         <p>Interested in working together?</p>
         <p>Lets connect via email or LinkedIn</p>
         <form action="/submit-contact" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required>
-    
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-    
-            <button type="submit">Submit</button>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
         </form>
-    </div>
-    <div class="footer">
+      </div>
+      <div class="footer">
         <div class="left_foot">
-            
+          <h3>#keep_it_simple</h3>
         </div>
         <div class="right_foot">
-            <ul class="medsos">
-                <li class="li-footer">
-                    <a href="https://github.com/dwiprst13" target="_blank">Github</a>
-                </li>
-                <li class="li-footer">
-                    <a href="https://www.linkedin.com/in/dwi-prasetia-7848b1242" target="_blank">LinkedIn</a>
-                </li>
-                <li class="li-footer">
-                    <a href="https://www.instagram.com/prastttt13/" target="_blank">Instagram</a>
-                </li>           
-            </ul>
+          <ul class="medsos">
+            <li class="li-footer">
+              <a href="https://github.com/dwiprst13" target="_blank">Github</a>
+            </li>
+            <li class="li-footer">
+              <a
+                href="https://www.linkedin.com/in/dwi-prasetia-7848b1242"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="li-footer">
+              <a href="https://www.instagram.com/prastttt13/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="icon-container">
+        <div class="icon blinking" id="warning-icon">
+            <h1 class="warn_icon">!</h1>
+        </div>
+      </div>
+
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <p>This is just fake portofolio website.</p>
+          <p>"I am not responsible for the improper use of my personal information on this website as this is truly nothing but false data."</p>
+          <button id="close-btn">X</button>
+        </div>
+      </div>
     </div>
-</div>
-</body>
-</html> 
+  </body>
+</html>
